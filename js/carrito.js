@@ -4,7 +4,7 @@ const pintarCarrito = () => {
     const modalHeader = document.createElement("div");
     modalHeader.className = "modal-header";
     modalHeader.innerHTML = `
-    <h1 class="modal-header-title">Carrito</h1> 
+    <h1 class="modal-header-title">🛒 Carrito CW</h1> 
     `; 
     modalContainer.append(modalHeader);
  
