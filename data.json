@@ -1,0 +1,7 @@
+[
+    { "id": 1, "nombre": "S-Works Tarmac SL6", "img": "./img/galeriasl6.jpg"},
+    { "id": 2, "nombre": "Cervélo S5", "img": "./img/galeriacervelo.jpg"},
+    { "id": 3, "nombre": "Pinarello Bolide", "img": "./img/galeriabolide.jpg"},
+    { "id": 4, "nombre": "S-Works Tarmac SL7", "img": "./img/galeriasl7.jpg"},
+    { "id": 5, "nombre": "Colnago Prototipo", "img": "./img/galeriacolnago.jpg"}
+]

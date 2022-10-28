@@ -1,0 +1,66 @@
+const productos = [
+    {
+        id: 1,
+        nombre: "Giant Propel",
+        precio: 15000,
+        img: "./img/tiendapropel.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 2,
+        nombre: "Shimano Dura-Ace Di2",
+        precio: 5000,
+        img: "./img/tiendaduraace.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 3,
+        nombre: "Ruedas Zipp 808",
+        precio: 2500,
+        img: "./img/tiendazipp.jpeg",
+        cantidad: 1,
+    },
+    {
+        id: 4,
+        nombre: "Cubiertas Vittoria Corsa",
+        precio: 500,
+        img: "./img/tiendavittoria.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 5,
+        nombre: "Cadena Dura-Ace",
+        precio: 200,
+        img: "./img/tiendacadena.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 6,
+        nombre: "Asiento S-Works",
+        precio: 800,
+        img: "./img/tiendaasiento.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 7,
+        nombre: "S-Works Prevail II",
+        precio: 700,
+        img: "./img/tiendacasco.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 8,
+        nombre: "Cuadro Tarmac SL7",
+        precio: 5000,
+        img: "./img/tiendacuadro.jpg",
+        cantidad: 1,
+    },
+    {
+        id: 9,
+        nombre: "Garmin Edge",
+        precio: 350,
+        img: "./img/tiendagarmin.jpg",
+        cantidad: 1,
+    },
+];
+

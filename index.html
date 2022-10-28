@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Kelly+Slab&family=Odibee+Sans&family=Oswald:wght@300&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" href="./img/logo4.png">
+    <!-- LINK FONT-AWESOME -->
+    <script src="https://kit.fontawesome.com/c2866eb368.js" crossorigin="anonymous"></script>
+    <!-- LINK ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- LINK AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>.: CyclingWorld Shop :.</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="nav-container" data-aos="zoom-out" data-aos-duration="2000">
+        <nav class="navbar">
+            <h1 class="navbar-logo">CyclingWorld Shop</h1>
+            <h1 class="ver-carrito" id="verCarrito">🛒 <span id="cantidadCarrito" class="cantidadCarrito"></span></h1>
+        </nav>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner" data-aos="zoom-out" data-aos-duration="2000">
+        <div class="banner-container">
+            <h1 class="animate__animated animate__pulse animate__delay-2s animate__slow animate__infinite banner__h1">CyclingWorld</h1>
+            <p class="banner__p">Tu entrada al mundo del ciclismo</p>
+        </div>
+    </div>
+
+    <!-- Shop Content -->
+    <div id="shopContent" class="shop-content" data-aos="zoom-in-up" data-aos-duration="1000"></div>
+
+    <!-- Modal Container -->
+    <div id="modal-container" class="modal-container"></div>
+
+    <!-- Div Sponsors -->
+    <div class="divsponsors">
+        <h4 class="titulosponsors">Nuestros Sponsors:</h4>
+        <img class="imgsponsors" src="./img/Logoshomeblack-1.jpg" alt="">
+    </div>
+
+    <!-- Galeria -->
+    <div class="galeria__div">
+        <h3 class="galeria__titulo">Nuestro Top 5 de Bicicletas:</h3>
+        <div id="galeria__contenedor" data-aos="zoom-in" data-aos-duration="1000"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">            
+              
+        <div class="footer__cierre">
+            <h5 class="animate__animated animate__pulse animate__delay-2s animate__slow animate__infinite footer__titulo">CyclingWorld</h5>
+            <img class="footer__logo" src="./img/logo4.png" alt="Logo de CyclingWorld">        
+        </div>
+                                    
+        <ul class="list-unstyled redes">
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/globalcyclingnetwork/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+             </li>
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/globalcyclingnetwork/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.youtube.com/GCN">
+                     <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                 <a href="https://twitter.com/gcntweet">
+                     <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+
+        <p class="footer__creditos">Desarrollado por F.D.C. Todos los derechos reservados ©.</p>
+    </footer>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script src="./js/products.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/carrito.js"></script>
+
+    <!-- LINK AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
